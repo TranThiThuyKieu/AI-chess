@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thời khóa biểu</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:#efefef;
+        }
+
+        .wrapper{
+            width:95%;
+            margin:auto;
+            background:#fff;
+            border-radius:6px;
+            padding:15px;
+        }
+
+        /* ===== HEADER ===== */
+        .header{
+            text-align:center;
+            position:relative;
+        }
+
+        .print-date{
+            position:absolute;
+            right:10px;
+            top:0;
+            font-size:13px;
+        }
+
+        .title{
+            font-weight:bold;
+            font-size:20px;
+            margin-top:10px explained;
+        }
+
+        .sub{
+            font-size:14px;
+        }
+
+        /* ===== TABLE ===== */
+        table{
+            width:100%;
+            border-collapse:collapse;
+            table-layout:fixed;
+            margin-top:15px;
+        }
+
+        th, td{
+            border:1px solid #dcdcdc;
+            text-align:center;
+            vertical-align:top;
+            padding:6px;
+            height:55px;
+            font-size:13px;
+        }
+
+        th{
+            background:#f7f7f7;
+            font-weight:bold;
+        }
+
+        /* cột tiết */
+        .tiet{
+            width:70px;
+            background:#fafafa;
+            color:#777;
+        }
+
+        /* cột giờ bên phải */
+        .gio{
+            width:70px;
+            background:#fafafa;
+            color:#777;
+        }
+
+        /* ===== SUBJECT BOX ===== */
+        .subject{
+            border-radius:6px;
+            padding:6px;
+            text-align:left;
+            line-height:1.4;
+        }
+
+        .green{
+            background:#eaf8ec;
+            border:2px solid #4CAF50;
+        }
+
+        .red{
+            background:#fdecec;
+            border:2px solid #e53935;
+        }
+
+        .subject b{
+            display:block;
+            margin-bottom:4px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="header">
+        <div class="print-date">Ngày in: 28/02/2026</div>
+
+        <div class="title">thời khóa biểu học kỳ</div>
+        <div class="sub">Học kỳ 2 - Năm học 2025 - 2026</div>
+        <div class="sub">Tên sinh viên: Trần Thị Thúy Kiều</div>
+    </div>
+
+    <table>
+
+        <thead>
+        <tr>
+            <th></th>
+            <th>Thứ 2</th>
+            <th>Thứ 3</th>
+            <th>Thứ 4</th>
+            <th>Thứ 5</th>
+            <th>Thứ 6</th>
+            <th>Thứ 7</th>
+            <th>Chủ Nhật</th>
+            <th></th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td class="tiet">Tiết 1</td>
+
+            <td rowspan="2">
+                <div class="subject green">
+                    <b>Lập trình hướng đối tượng (214274)</b>
+                    Nhóm: 04<br>
+                    Phòng: TV103<br>
+                    GV: Võ Tấn Toàn<br>
+                    07:00 - 09:30
+                </div>
+            </td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+            <td class="gio">07:00</td>
+        </tr>
+
+        <tr>
+            <td class="tiet">Tiết 2</td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+            <td class="gio">07:50</td>
+        </tr>
+
+        <tr>
+            <td class="tiet">Tiết 3</td>
+
+            <td>
+                <div class="subject green">
+                    Thực tập lập trình Web (214493)<br>
+                    Phòng: P1
+                </div>
+            </td>
+
+            <td></td>
+
+            <td>
+                <div class="subject red">
+                    Nhập môn CNPM (214370)<br>
+                    Phòng HD103
+                </div>
+            </td>
+
+            <td>
+                <div class="subject red">
+                    Lập trình di động (214274)
+                </div>
+            </td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+
+            <td class="gio">09:35</td>
+        </tr>
+
+        <tr>
+            <td class="tiet">Tiết 4</td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td class="gio">10:25</td>
+        </tr>
+
+        <tr>
+            <td class="tiet">Tiết 5</td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            <td class="gio">11:15</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
