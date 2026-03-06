@@ -1,2 +1,1 @@
-git config user.email "tranthithuykieupm12005@gmail.com" jkdoqjqiqfowknfweklnfwelk
-hhhhhhhhhhhhhhhhhhhhuwbafjbsjc smcujdsa
+git confighi sede
